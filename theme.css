@@ -1,3 +1,21 @@
 body {
-    background-color: lightblue; 
+    background-color: black; 
+    animation-name: mymove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
+.logo{
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    color: red;
+}
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+  }
+
+  
