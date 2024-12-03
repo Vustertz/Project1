@@ -10,10 +10,12 @@ body {
     animation: logoanimation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     color: red;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .main-img {
@@ -23,7 +25,7 @@ h1 {
     transform: translate(-50%, -50%);
     margin-top: 100px;
     width: 40rem;
-  }
+}
 
 .Active {
     margin: 25px;
@@ -34,20 +36,18 @@ nav a {
     text-decoration: none;
     font-size: x-large;
     border: 2px solid red;
-    padding: 3px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
     border-radius: 10px;
     display: inline-block;
     margin: 2rem;
   
 } 
 
- nav a:hover 
-   {
-   
+ nav a:hover {
     background-color: red; 
     color: black;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   @keyframes logoanimation{
@@ -59,3 +59,23 @@ nav a {
     }
   }
 
+ .information {
+    width: 300px; 
+    height: 100px; 
+    text-align: center;
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+ }
+
+ .contact{
+    margin: 100px;
+    color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+.social{
+    margin: 60px;
+    font-size: 30px;
+}
